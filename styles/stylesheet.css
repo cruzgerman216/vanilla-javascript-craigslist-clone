@@ -1,0 +1,264 @@
+.main {
+  min-height: 97.666%;
+
+}
+
+.sidebar {
+  border-left: 1px #ccc solid;
+  border-right: 1px #ccc solid;
+  background-color: #f4f4f4;
+}
+
+.link {
+  color: #0056b3;
+  cursor: pointer;
+  font-family: "Arial", sans-serif;
+}
+
+.link:hover {
+  color: #6610f2;
+  text-decoration: underline;
+}
+
+.navlink {
+  color: #6610f2;
+  text-decoration: underline;
+  cursor: pointer;
+  font-family: "Arial", sans-serif;
+}
+
+.linkcategory {
+  color: #0056b3;
+  cursor: pointer;
+  font-family: "Arial", sans-serif;
+  cursor: pointer;
+}
+.linkcategory:hover {
+  color: #6610f2;
+  text-decoration: underline;
+  background-color: #ccc;
+}
+
+.col-1 {
+  padding-left: 5px;
+}
+
+.headers {
+  background-color: #eee;
+  border-top: 1px #ccc solid;
+  border-bottom: 1px #ccc solid;
+  cursor: pointer;
+}
+
+.subheaders {
+  background-color: #eee;
+  border-top: 1px #ccc solid;
+  border-bottom: 1px #ccc solid;
+  margin-top: 10px;
+  padding-bottom: 5px;
+  cursor: pointer;
+}
+.subheaders:hover {
+  background-color: rgb(253, 251, 251);
+}
+
+#header {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.footer {
+  text-align: center;
+  font-family: "Arial", sans-serif;
+  font-size: smaller;
+  background-color: #eee;
+  border-top: 1px #ccc solid;
+  height: 3%;
+}
+
+.footerlinks {
+  padding-right: 5px;
+  padding-left: 5px;
+  text-decoration: none;
+}
+#sessionforms {
+  max-width: 23%;
+  padding-top: 5%;
+  min-height: 97%;
+}
+
+#headerform {
+  background-color: #eee;
+  margin-left: 5px;
+  margin-right: 5px;
+  text-align: center;
+  margin: 10px 10px 10px 10px;
+  font-weight: bold;
+}
+.mainlogin {
+  border: solid 1px #ccc;
+}
+#login-form,
+#signup-form {
+  margin: 0px 15px 10px 15px;
+}
+
+label {
+  margin-bottom: 0px;
+}
+
+.button {
+  margin-top: 10px;
+}
+.inputform {
+  width: 100%;
+}
+
+#or {
+  font-style: italic;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.navigator {
+  background-color: #eee;
+  border-bottom: solid 1px #ccc;
+  position: fixed;
+  top: 0;
+  left:0;
+  width: 100%;
+  padding: .1% .6% 0;
+  z-index: 1;
+}
+.searchnav {
+  position: fixed;
+  top: 0%;
+  padding-top:2%;
+  z-index:0;
+  width: 100%;
+  left:17%;
+  background-color:white;
+}
+
+.sidenav {
+  height: 100%;
+  width: 15%;
+  position: fixed;
+  z-index: 1;
+  top: 5%;
+  left: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+  overflow-y: scroll;
+  text-align:left;
+  padding-left: 1%;
+}
+.sidecontent {
+   margin-left: 12%;
+  padding-top: 20px;
+  padding-left: 5%;
+  padding-top: 8%;
+}
+
+#getpost {
+  height: 97%;
+  width: 75%;
+  margin: auto;
+  padding-top:5%;
+}
+
+.createpost {
+  height: 97%;
+  width: 50%;
+  margin: auto;
+  padding-top: 4.5em;
+}
+
+.button{
+  padding:5px;
+  border: 1px solid #e0e0e0;
+  background-color:#FFF;
+}
+
+
+.replybutton{
+  padding: 0 .8em;
+  border: 1px solid #b481c9 ;
+  background-color:#ece3ef;
+  color: #7b1fa2;
+}
+
+.posting{
+  margin: 1em;
+  display: inline-block;
+  font-size: .75em;
+}
+#user_account{
+  min-height:97%;
+  padding-top: 3%;
+}
+
+#session{
+  cursor: pointer;
+}
+
+#myaccount:hover{
+  text-decoration: underline;
+  color:6610f2;
+}
+
+.field{
+  background-color: #f7f7f7;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  padding: .35em .35em .75em;
+  margin: 1%;
+}
+
+.tablepost{
+  background: white;
+  border: 1px solid #aaa;
+  font-size: .8em;
+  margin: 10px 0 15px;
+  padding: 5px;
+  width: 100%;
+}
+
+.tabelepostheader{
+  border-radius: 4px; 
+  background-color: #e6e6e6; 
+  border: 1px solid #aaaaaa;
+}
+
+.adjustable{
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.mypostentry{
+  margin-right: 0; 
+  margin-left: 0;
+  border-radius: 4px; 
+  background-color: #dfd; 
+  border: 1px solid #aaaaaa;
+}
+
+.grid-container-one-column {
+  display: grid;
+  grid-template-columns: auto ;
+}
+
+.grid-container-two-column {
+  display: grid;
+  grid-template-columns: auto auto ;
+}
+
+.grid-container-three-column {
+  display: grid;
+  grid-template-columns: auto auto auto ;
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+}
