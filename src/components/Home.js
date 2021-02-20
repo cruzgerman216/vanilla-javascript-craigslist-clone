@@ -81,7 +81,7 @@ class Home {
           </div>
           <div class="col-9"  style="flex: 0 0 70%; max-width:70%;">
             <div class="row headers"  style="display:block; margin-right:10px; margin-left:10px;padding:5px;">
-              <h4 id="header">Welcome!!!</h4>
+              <h4 id="header">Welcome</h4>
             </div>
             <div class="container" id="categories">
               <div class="row">
